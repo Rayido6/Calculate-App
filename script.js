@@ -9,7 +9,7 @@ function display(value) {
 }
 
 function calculate() {
-    let displayBox = document.getElementById("result");
+    let displayBox = document.getElementById("result").value;
     let answer = eval(displayBox);
     document.getElementById("result").value = answer;
 }
